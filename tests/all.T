@@ -122,3 +122,8 @@ test('qsem001', normal, compile_and_run, [''])
 test('qsemn001', normal, compile_and_run, [''])
 
 test('T7457', normal, compile_and_run, [''])
+test('T7773', normal, compile_and_run, [''])
+
+# Tests for kind-polymorphic Category
+test('CatPairs', normal, compile, [''])
+test('CatEntail', normal, compile, [''])
